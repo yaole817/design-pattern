@@ -1,0 +1,16 @@
+﻿Build started 2018/1/29 14:07:55.
+     1>Project "D:\mycode\DesignPatternCPlusPlus\AbsrateFactoryPattern\AbsrateFactoryPattern\AbsrateFactoryPattern.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\AbsrateFactoryPattern.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AbstractFactory.cpp main.cpp
+         main.cpp
+         AbstractFactory.cpp
+     1>d:\mycode\designpatterncplusplus\absratefactorypattern\absratefactorypattern\abstractfactory.cpp(5): error C2600: 'AbstractFactory::AbstractFactory' : cannot define a compiler-generated special member function (must be declared in the class first)
+     1>d:\mycode\designpatterncplusplus\absratefactorypattern\absratefactorypattern\abstractfactory.cpp(10): error C2600: 'AbstractFactory::~AbstractFactory' : cannot define a compiler-generated special member function (must be declared in the class first)
+         Generating Code...
+     1>Done Building Project "D:\mycode\DesignPatternCPlusPlus\AbsrateFactoryPattern\AbsrateFactoryPattern\AbsrateFactoryPattern.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.32
